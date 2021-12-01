@@ -1,7 +1,10 @@
+/*provides the overall text styling for the body and for sections that don't have 
+assigned font familys*/
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/*provides the styling and alignment for the integrated google maps*/
 #map {
     margin-left: auto;
     margin-right: auto;
@@ -9,6 +12,7 @@ body {
     width: 40%;   
 }
 
+/*this provides the styling for the image so it can fit on the webpage*/
 img {
     display: block;
     margin-left: auto;
@@ -16,21 +20,25 @@ img {
     width: 50%;
     border-radius: 30%;
 }
-  
+
+/*title styling*/
 h1, h2, h3 {
     text-align: center;
     color: black;
 }
 
+/*specifc title styling for h1*/
 h1{
     font-size: 65px;
     font-family: 'Courier New', Courier, monospace;
 }
 
+/*specifc title styling for h2*/
 h2 {
     font-size: 20px;
 }
 
+/*overall styling for paragraphs*/
 p  {
     color: black;
     margin-left: 3in;
@@ -47,7 +55,7 @@ ol {
     text-align: left;
     margin-left: 3in
 }
-  
+/*this provides the styling for the borders that seperate each section*/
 hr {
     margin-left: 3in;
     margin-right: 3in;
@@ -63,7 +71,9 @@ a:hover {
     color: #93ada4;
     
 }
-  
+
+/*provides specific styling for the header including background color, text specifications, size, etc. 
+this gives the header the seperate look it has on the webpage to make it stand out from the main.*/
 header{
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -78,6 +88,8 @@ header{
     line-height: 1.2;
 }
 
+/*provides specific styling for the main including background color, text specifications, size, etc. 
+this gives the main the seperate look it has on the webpage to make it stand out from the header.*/
 Main{
     padding-top: 1rem;
     padding-bottom: 3rem;
@@ -92,7 +104,8 @@ Main{
     font-size: 1.5rem;
     line-height: 1.2;
 }
-
+/*provides specific styling for the footer including background color, text specifications, size, etc. 
+this gives the footer the seperate look it has on the webpage to make it stand out from the main and align with the header.*/
 footer {
     padding-top: .5rem;
     padding-bottom: .5rem;
