@@ -1,0 +1,109 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#map {
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 40%;   
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 30%;
+}
+  
+h1, h2, h3 {
+    text-align: center;
+    color: black;
+}
+
+h1{
+    font-size: 65px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p  {
+    color: black;
+    margin-left: 3in;
+    margin-right: 3in;
+}
+
+ul {
+    text-align: left;
+    margin-left: 3in;
+    
+}
+
+ol {
+    text-align: left;
+    margin-left: 3in
+}
+  
+hr {
+    margin-left: 3in;
+    margin-right: 3in;
+    border-width: 2px;
+    border-color: black;
+}
+  
+a {
+    color: black;
+}
+
+a:hover {
+    color: #93ada4;
+    
+}
+  
+header{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-color: darkgrey;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Anton', sans-serif;
+    font-weight: 450;
+    line-height: 1.2;
+}
+
+Main{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    text-align: left;   
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Anton', sans-serif;
+    font-weight: 450;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+footer {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: center;
+    background-color: darkgray;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Anton', sans-serif;
+    font-weight: 450;
+    font-size: 1.5rem;
+    line-height: 1;
+}
