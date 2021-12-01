@@ -41,6 +41,7 @@ h2 {
 /*overall styling for paragraphs*/
 p  {
     color: black;
+    text-align: left;
     margin-left: 3in;
     margin-right: 3in;
 }
