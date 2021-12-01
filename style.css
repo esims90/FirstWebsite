@@ -74,9 +74,7 @@ a:hover {
 
 /*provides specific styling for the header including background color, text specifications, size, etc. 
 this gives the header the seperate look it has on the webpage to make it stand out from the main.*/
-header{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+body{
     text-align: center;
     background-color: darkgrey;
     background-repeat: no-repeat;
@@ -103,20 +101,4 @@ Main{
     font-weight: 450;
     font-size: 1.5rem;
     line-height: 1.2;
-}
-/*provides specific styling for the footer including background color, text specifications, size, etc. 
-this gives the footer the seperate look it has on the webpage to make it stand out from the main and align with the header.*/
-footer {
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    text-align: center;
-    background-color: darkgray;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-    font-family: 'Anton', sans-serif;
-    font-weight: 450;
-    font-size: 1.5rem;
-    line-height: 1;
 }
