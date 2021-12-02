@@ -4,14 +4,6 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/*provides the styling and alignment for the integrated google maps*/
-#map {
-    margin-left: auto;
-    margin-right: auto;
-    height: 400px;
-    width: 40%;   
-}
-
 /*this provides the styling for the image so it can fit on the webpage*/
 img {
     display: block;
